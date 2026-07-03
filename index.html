@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+  <title>Hello World - Week 01</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Fraunces', serif;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 10rem;
+      animation: bounce 3s infinite;
+      animation-delay: 0.25s;
+    }
+
+    @keyframes bounce {
+
+      0%,
+      30%,
+      55%,
+      100% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      15% {
+        transform: translateY(-60px);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      }
+
+      42% {
+        transform: translateY(-25px);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      }
+
+      63% {
+        transform: translateY(-5px);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello World</h1>
+</body>
+
+</html>
