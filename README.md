@@ -6,7 +6,7 @@ This is a single HTML page that displays "Hello World" centered on a black backg
 
 My purpose was to reinforce fundamentals I don't always touch day to day: font loading, flexbox centering, and hand-written keyframe animations.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/XVnm8tPvVCs)
 
 # Development Environment
 
